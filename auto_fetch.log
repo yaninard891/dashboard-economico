@@ -1,0 +1,17 @@
+2026-03-29 20:32:44 [INFO] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-03-29 20:32:44 [INFO] Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-03-29 20:32:44 [INFO] ==================================================
+2026-03-29 20:32:44 [INFO]   Dashboard Económico — Auto Fetch iniciado
+2026-03-29 20:32:44 [INFO]   fetch_completo : cada 24 horas
+2026-03-29 20:32:44 [INFO]   fetch_rapido   : cada 1 hora
+2026-03-29 20:32:44 [INFO]   Zona horaria   : America/Argentina/Buenos_Aires
+2026-03-29 20:32:44 [INFO]   Logs           : auto_fetch.log
+2026-03-29 20:32:44 [INFO]   Ctrl+C para detener
+2026-03-29 20:32:44 [INFO] ==================================================
+2026-03-29 20:32:44 [INFO] Added job "Fetch completo (inflación + oficial + blue + empleo)" to job store "default"
+2026-03-29 20:32:44 [INFO] Added job "Fetch rápido (dólar blue / CCL / MEP)" to job store "default"
+2026-03-29 20:32:44 [INFO] Scheduler started
+2026-03-29 20:32:44 [INFO] Running job "Fetch completo (inflación + oficial + blue + empleo) (trigger: interval[1 day, 0:00:00], next run at: 2026-03-30 20:32:44 -03)" (scheduled at 2026-03-29 23:32:44.099733+00:00)
+2026-03-29 20:32:44 [INFO]  fetch_completo iniciado...
+2026-03-29 20:33:31 [ERROR]  fetch_completo falló: No se pudo conectar a MongoDB: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 3.0s, Topology Description: <TopologyDescription id: 69c9b6c56d0aeefa56e9ea97, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2026-03-29 20:33:31 [INFO] Job "Fetch completo (inflación + oficial + blue + empleo) (trigger: interval[1 day, 0:00:00], next run at: 2026-03-30 20:32:44 -03)" executed successfully
