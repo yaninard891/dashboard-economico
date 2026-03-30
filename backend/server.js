@@ -44,6 +44,6 @@ mongoose
     });
   })
   .catch((err) => {
-    console.error("✗ Error al conectar MongoDB:", err.message);
+    console.error("Error al conectar MongoDB:", err.message);
     process.exit(1);
   });
